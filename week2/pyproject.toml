@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "week2"
+version = "0.1.0"
+description = ""
+authors = ["obov <obov3e@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+datasets = "^3.0.0"
+torch = "^2.4.1"
+transformers = "^4.44.2"
+tokenizers = "0.19"
+matplotlib = "^3.9.2"
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+ipywidgets = "^8.1.5"
+sentencepiece = "^0.2.0"
+sacremoses = "^0.1.1"
+importlib-metadata = "^8.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
