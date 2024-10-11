@@ -30,6 +30,10 @@ scikit-learn = "^1.5.2"
 sacrebleu = "^2.4.3"
 openpyxl = "^3.1.5"
 huggingface-hub = "^0.25.2"
+notebook = "^7.2.2"
+jupyter-archive = "^3.4.0"
+jupyter-nbextensions-configurator = "^0.6.4"
+nbclassic = "^1.1.0"
 
 [build-system]
 requires = ["poetry-core"]
