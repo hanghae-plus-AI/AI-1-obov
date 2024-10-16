@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "week4"
+name = "week5"
 version = "0.1.0"
 description = ""
 authors = ["obov <obov3e@gmail.com>"]
@@ -34,6 +34,11 @@ notebook = "^7.2.2"
 jupyter-archive = "^3.4.0"
 jupyter-nbextensions-configurator = "^0.6.4"
 nbclassic = "^1.1.0"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.3"
+colorama = "^0.4.6"
+humanize = "^4.11.0"
+
 
 [build-system]
 requires = ["poetry-core"]
