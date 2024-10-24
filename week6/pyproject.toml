@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "week6"
+version = "0.1.0"
+description = ""
+authors = ["obov <obov3e@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+ipywidgets = "^8.1.5"
+tqdm = "^4.66.5"
+boto3 = "^1.35.30"
+requests = "^2.32.3"
+regex = "^2024.9.11"
+sentencepiece = "^0.2.0"
+sacremoses = "^0.1.1"
+datasets = "^3.0.1"  # 최신 버전으로 업데이트
+torch = "^2.4.1"
+safetensors = "^0.4.5"
+tokenizers = "^0.20.0"
+importlib-metadata = "^8.5.0"
+protobuf = "^5.28.2"
+transformers = {extras = ["safetensors"], version = "^4.45.2"}  # 최신 버전 사용 가능: 4.46.0 이상
+matplotlib = "^3.9.2"
+evaluate = "^0.4.3"
+accelerate = "^0.26.0"  # 최신 버전 사용 가능
+scikit-learn = "^1.5.2"
+sacrebleu = "^2.4.3"
+openpyxl = "^3.1.5"
+huggingface-hub = "^0.25.2"
+notebook = "^7.2.2"
+jupyter-archive = "^3.4.0"
+jupyter-nbextensions-configurator = "^0.6.4"
+nbclassic = "^1.1.0"
+python-dotenv = "^1.0.1"
+pandas = "^2.2.3"
+colorama = "^0.4.6"
+humanize = "^4.11.0"
+tiktoken = "^0.8.0"
+openai = "^1.51.2"
+logger = "^1.4"
+colorlog = "^6.8.2"
+wandb = "^0.18.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
